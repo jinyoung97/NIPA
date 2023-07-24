@@ -8,16 +8,22 @@ a {
   }
 
 .pagename{
+    display: inline-block;
     color:#E0E7E9;
-    font-size: 40px;
-
+    font-size: 50px;
+    font-weight: 600;
     text-align: center;
+    margin-left: 15%;
 }
 
 .login{
-    text-align: right;
-    
+    display: inline-block;
+    float: right;
+    align-items: center;
+    padding-right: 15%;
     color: #E0E7E9;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .center{
@@ -25,7 +31,17 @@ a {
 }
 
 .box{
-    border: 1px solid black;
+    background-color: beige;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.box:hover{
+    background-color: #9e9e9e;
 }
 
 .month{
@@ -49,10 +65,7 @@ a {
     font-weight: 600;
     line-height: 0.7;
     padding-top: 7px;
-    
-	@media screen and (min-width:55em) {
-		font-size: 2.3rem;
-	}
+
 }
 
 .past {
@@ -84,3 +97,29 @@ tbody > tr > td:active {
     background-color: rgb(80, 80, 80)
 }
 
+.left{
+    margin-left: 15%;
+    float: left;
+}
+
+.right{
+    margin-right: 15%;
+    float: right;
+    background-color: rgba(156, 146, 146, 0.336);
+    border-radius: 5px;
+}
+
+.fix{
+    margin-left: 15%;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.delete{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
